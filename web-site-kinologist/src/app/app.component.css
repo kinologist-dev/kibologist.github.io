@@ -1,0 +1,134 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../assets/Fonts/OpenSans.ttf') format('truetype'); /* IE 9 Compatibility Mode */
+}
+@font-face {
+	font-family: 'Bebas Neue Bold';
+	src: url('../assets/Fonts/bebas_neue_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../assets/Fonts/bebas_neue_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../assets/Fonts/bebas_neue_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../assets/Fonts/bebas_neue_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../assets/Fonts/bebas_neue_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../assets/Fonts/bebas_neue_bold.svg#bebas_neue_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+.container {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header {
+    background-color: #303030;
+    color: #FFFFFF;
+
+    font-weight: bold;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    border: none;
+
+}
+
+.link-header {
+    display: inline-block;
+    margin-right: 4vw;
+
+    font-size: 0.8vw;
+
+    align-items: center;
+}
+
+.links-header {
+    text-align: center;
+}
+
+.contact-number {
+    font-size: 1vw;
+}
+
+.main-body {
+    width: 100%;
+
+    font-weight: 300;
+}
+
+.first-container {
+    background-image: url(../assets/images/first-background-custom.png);
+    background-repeat: no-repeat;
+    background-position: top 0 left 100%;
+    background-size: 77%;
+    width: 100%;
+    height: 100%;
+
+    font-size: 1vw;
+}
+
+ol{
+    list-style: none;
+    margin-left: -2vw;
+
+    font-weight: 400;
+}
+ol > li{
+    padding-left: 0.7vw;
+    position: relative;
+    margin: 0.5vw;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.8vw;
+}
+
+.left-part-first, .right-part-first{
+    display: inline-block;
+    width: fit-content;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.first-title{
+    font-family: 'Bebas Neue Bold';
+
+    color: #303030;
+
+    text-transform: uppercase;
+
+    font-size: 3.3vw;
+}
+
+.first-contaoner-body{
+    padding-left: 23vw;
+}
+
+.first-dog-img{
+    margin-top: 6vw;
+}
+
+.course4you{
+    font-size: 1.25vw;
+    margin-bottom: -1vh;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.buy-button{
+    background-color: #66A340;
+
+    width: 8.9vw;
+    text-align: center;
+
+    padding-top: 0.5vw; 
+    padding-bottom: 0.5vw; 
+    border-radius: 1vw;
+}
+
+.first-left-list{
+    text-align: left;
+}
