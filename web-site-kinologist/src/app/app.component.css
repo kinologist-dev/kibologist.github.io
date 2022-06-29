@@ -162,10 +162,10 @@ ol>li {
     margin-left: -5%;
 }
 
-.second-title {
+.block-title {
     font-family: 'Bebas Neue Bold';
 
-    font-size: 3.75vw;
+    font-size: 2.75vw;
 
     text-transform: uppercase;
 }
@@ -182,4 +182,64 @@ ol>li {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.4vw;
+}
+
+.third-title{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.third-row{
+    background-color: #66A340;
+
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+
+    color: #FFFFFF;
+
+    border-radius: 0.5vw;
+
+    width: fit-content;
+
+    font-size: 1.2vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.first-third-row{
+    margin-left: 15vw;
+}
+.second-third-row{
+    margin-left: 50vw;
+    margin-top: -0.5vh;
+}
+.third-third-row{
+    margin-left: 27.5vw;
+    margin-top: 1.5vh;
+}
+.fourth-third-row{
+    margin-left: 56.5vw;
+    margin-top: 0.2vh;
+}
+.fifth-third-row{
+    margin-left: 20vw;
+    margin-top: -0.1vh;
+}
+
+.third-container-body{
+    background-image: url(../assets/images/third-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 98%;
+}
+.third-rows{
+    margin-left: 2vw;
+    margin-top: 7.5vh;
+}
+.bottom-third-title{
+    padding-bottom: 5%;
 }
