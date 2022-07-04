@@ -234,7 +234,7 @@ ol>li {
     background-image: url(../assets/images/third-background.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 98%;
+    background-size: 100%;
 }
 .third-rows{
     margin-left: 2vw;
@@ -242,4 +242,39 @@ ol>li {
 }
 .bottom-third-title{
     padding-bottom: 5%;
+    margin-bottom: 0;
+}
+
+.fourth-container-body{
+    background-color: #66A340;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    border-radius: 0.5vw;
+
+    width: 98%;
+    margin: auto;
+    margin-top: 1%;    
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.big-text{
+    font-family: 'Bebas Neue Bold';
+    font-size: 3vw;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.small-text{
+    font-size: 0.7vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.left-block-fourth, .center-block-fourth, .right-block-fourth{
+    text-align: center;
+    color: #FFFFFF;
+
+    display: inline-block;
 }
