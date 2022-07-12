@@ -139,7 +139,7 @@ ol>li {
     width: 100%;
 }
 
-.second-container-body {
+.second-container-body, .eighth-container-body {
     background-color: #f5f5f5;
 
     border-radius: 1vw;
@@ -150,17 +150,19 @@ ol>li {
     margin-right: 1%;
 }
 
-.left-part-second {
+.left-part-second, .left-part-eighth {
     margin-top: -3%;
     margin-left: 18vw;
 }
 
-.second-photo {
+.second-photo, .eighth-photo {
     width: 83%;
 }
 
-.right-part-second {
+.right-part-second, .right-part-eighth{
     margin-left: -5%;
+
+    text-align: left;
 }
 
 .block-title {
@@ -403,14 +405,14 @@ ol>li {
     padding-left: 1%;
 }
 
-.sixth-btn {
+.sixth-btn, .eighth-btn {
     background-color: #66A340;
 
     width: 20%;
     text-align: center;
 
-    padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 
     border-radius: 0.35vw;
     border: 0.1vw solid #66A340;
@@ -425,8 +427,8 @@ ol>li {
 
     text-align: center;
 
-    padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 
     color: #303030;
 
@@ -437,9 +439,9 @@ ol>li {
 }
 
 
-.sixth-btn-second, .sixth-btn {
+.sixth-btn-second, .sixth-btn , .eighth-btn{
     display: inline-block;
-    font-size: 1.2vw;
+    font-size: 1.05vw;
 }
 
 
@@ -456,7 +458,7 @@ ol>li {
     background-position: top 30% left 100%;
     background-size: 60%;
 
-    padding-bottom: 5vh;
+    padding-bottom: 10vh;
 }
 
 .seventh-item{
@@ -480,7 +482,14 @@ ol>li {
 }
 
 
+.eighth-btn{
+    margin-top: 2vh;
+    margin-left: 0;
+}
 
+.eighth-container-body{
+    margin-top: -1vh;
+}
 
 
 
