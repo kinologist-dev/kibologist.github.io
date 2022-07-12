@@ -406,7 +406,6 @@ ol>li {
 .sixth-btn {
     background-color: #66A340;
 
-
     width: 20%;
     text-align: center;
 
@@ -440,12 +439,59 @@ ol>li {
 
 .sixth-btn-second, .sixth-btn {
     display: inline-block;
+    font-size: 1.2vw;
 }
 
 
 .buttons-bottom {
     margin-top: 8vh;
 }
+
+.seventh-container-body{
+    text-align: center;
+    margin-top: 13vh;
+
+    background-image: url(../assets/images/seventh-back.png);
+    background-repeat: no-repeat;
+    background-position: top 30% left 100%;
+    background-size: 60%;
+
+    padding-bottom: 5vh;
+}
+
+.seventh-item{
+    display: inline-block;
+    margin-right: 1%;
+    vertical-align: top;
+    width: 10%;
+}
+
+.seventh-item-img > img{
+    width: 10vw;
+}
+
+.seventh-title{
+    margin-bottom: 3vh;
+}
+
+.seventh-item-text{
+    width: 100%;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
