@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "web-site-kinologist"
+  "defaultProject": "web-site-kinologist",
+  "cli": {
+    "analytics": false
+  }
 }
