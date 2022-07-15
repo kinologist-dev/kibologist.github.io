@@ -494,22 +494,64 @@ ol>li {
 
 .ninth-container-body{
     text-align: center;
+
+    background-image: url(../assets/images/ninth-background.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+
+    padding-bottom: 2vh;
 }
 
 
+.img-ninth {
+    width: 25%;
+    display: inline-block;
+    margin-right: 2%;
+}
 
+.scrolling-part > .img-ninth > img{
+    width: 100%;
+}
 
+.footer-part{
+    color: #66A340;
+    font-size: 1vw;
+    margin-bottom: 0;
 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 
+    align-content: center;
+}
 
+.footer-part > a{
+    color: #66A340;
+}
 
+.footer-part > span{
+    display: inline-block;
+    padding-top: -0.5vh;
+}
 
+.footer-part > img{
+    width: 1.1vw;
+    margin-right: 0.2vw;
+    margin-top:  1vh;
 
+}
 
+.footer-part > img, .footer-part > span{
+    display: inline-block;
+    align-self: center;
+}
 
+.footer{
+    background-color: #303030;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 
-
-
-.footer {
-    height: 25vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
 }

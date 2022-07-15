@@ -469,9 +469,9 @@
           почитайте реальные отзывы из instagram
         </h2>
 
-        <div class="scroll-part">
-          <div class="scrolling-part">
-            
+        <div class="scrolling-part">
+          <div class="img-ninth" *ngFor="let y of imgCollection">
+            <img src="{{y.image}}" alt="{{y.alt}}">
           </div>
         </div>
 
@@ -480,5 +480,15 @@
   </div>
 </div>
 <div class="footer">
-
+  <div class="footer-left footer-part">
+    Остались вопросы? <br>
+    Тел. <a href="tel:+380677775401">+380677775401</a>
+  </div>
+  <div class="footer-center footer-part">
+    Logo
+  </div>
+  <div class="footer-right footer-part">
+    <img src="../assets/images/TelegramVector.png" alt="vec"> <a href="https://t.me/Producer_dp">@Producer_dp</a> <br>
+    <img src="../assets/images/instagramVector.png" alt="vec"> <a href="https://www.instagram.com/kinolog_dp/">@kinolog_dp</a> 
+  </div>
 </div>
