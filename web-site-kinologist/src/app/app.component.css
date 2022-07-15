@@ -159,7 +159,7 @@ ol>li {
     width: 83%;
 }
 
-.right-part-second, .right-part-eighth{
+.right-part-second, .right-part-eighth {
     margin-left: -5%;
 
     text-align: left;
@@ -439,7 +439,7 @@ ol>li {
 }
 
 
-.sixth-btn-second, .sixth-btn , .eighth-btn{
+.sixth-btn-second, .sixth-btn, .eighth-btn {
     display: inline-block;
     font-size: 1.05vw;
 }
@@ -449,7 +449,7 @@ ol>li {
     margin-top: 8vh;
 }
 
-.seventh-container-body{
+.seventh-container-body {
     text-align: center;
     margin-top: 13vh;
 
@@ -461,37 +461,40 @@ ol>li {
     padding-bottom: 10vh;
 }
 
-.seventh-item{
+.seventh-item {
     display: inline-block;
     margin-right: 1%;
     vertical-align: top;
     width: 10%;
 }
 
-.seventh-item-img > img{
+.seventh-item-img>img {
     width: 10vw;
 }
 
-.seventh-title{
+.seventh-title {
     margin-bottom: 3vh;
 }
 
-.seventh-item-text{
+.seventh-item-text {
     width: 100%;
     text-align: left;
 }
 
 
-.eighth-btn{
+.eighth-btn {
     margin-top: 2vh;
     margin-left: 0;
 }
 
-.eighth-container-body{
+.eighth-container-body {
     margin-top: -1vh;
 }
 
 
+.ninth-container-body{
+    text-align: center;
+}
 
 
 
