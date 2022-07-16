@@ -47,19 +47,18 @@ a {
     padding-bottom: 1.5vw;
 
     border: none;
+    text-align: center;
 }
 
 .link-header {
-    display: inline-block;
+    display: inline;
+
+    width: fit-content;
     margin-right: 4vw;
 
     font-size: 0.9vw;
 
     align-items: center;
-}
-
-.links-header {
-    text-align: center;
 }
 
 .contact-number {
