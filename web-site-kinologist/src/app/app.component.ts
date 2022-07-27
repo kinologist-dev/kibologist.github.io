@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'web-site-kinologist';
-  constructor() { }
+  IsMobile: boolean = false;
+  constructor() {
+    this.getScreenSize();
+   }
 
   ngOnInit(): void { }
    
@@ -34,4 +37,11 @@ export class AppComponent {
         alt: 'Image 5'
       }
   ];
+
+  @HostListener('window:resize', ['$event'])
+    getScreenSize() {
+          if(window.innerWidth <= 768){
+            this.IsMobile = true;
+          }
+    }
 }
