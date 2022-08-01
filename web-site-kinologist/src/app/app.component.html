@@ -1,11 +1,38 @@
-<div *ngIf="IsMobile" class="container">
-  <div *ngIf="!isInBurger">
+<div *ngIf="IsMobile" class="container">  
+  <div class="burger-window" *ngIf="isInBurger">
+    <button class="close-btn" (click)="changeBurger()">
+      <img class="close-img" src="../assets/images/rotated+.png" alt="icon">
+    </button>
+
+    <div class="line-burger-window"></div>
+
+    <div class="routers-burger-window"></div>
+    <a class="router-btn-burger-window" href="#aboutPavel" (click)="changeBurger()">О создателе</a>
+    <!-- #aboutPavel -->
+    <a class="router-btn-burger-window" href="#modules" (click)="changeBurger()">Модули курса</a>
+    <a class="router-btn-burger-window" href="#howItGoes" (click)="changeBurger()">Как проходит курс</a>
+    <a class="router-btn-burger-window" href="#feedbacks" (click)="changeBurger()">Отзывы</a>
+    <footer>
+      <div class="footer-top footer-part">
+        Тел. <a href="tel:+380677775401" target="_blank">+380677775401</a>
+      </div>
+      <div class="footer-bottom footer-part">
+        <img src="../assets/images/TelegramVector.png" alt="vec"> <a href="https://t.me/Producer_dp"
+          target="_blank" (click)="changeBurger()">@Producer_dp</a>
+      </div>
+      <div class="footer-bottom footer-part">
+        <img src="../assets/images/instagramVector.png" alt="vec"> <a href="https://www.instagram.com/kinolog_dp/"
+          target="_blank">@kinolog_dp</a>
+      </div>
+    </footer>
+  </div>
+  <div  *ngIf="!isInBurger">
     <div class="header">
       <div class="header-logo">
         <img src="../assets/images/logo.png" alt="KinologistLogo">
       </div>
 
-      <button class="burger-header">
+      <button class="burger-header" (click)="changeBurger()">
         <div class="burger-row"></div>
         <div class="burger-row"></div>
         <div class="burger-row"></div>
@@ -48,8 +75,8 @@
         </div>
       </div>
 
-      <div class="second-container">
-        <div class="second-container-body" id="aboutPavel">
+      <div class="second-container" id="aboutPavel">
+        <div class="second-container-body">
 
           <div class="right-part-second right-part">
             <h2 class="second-title block-title">профессионал своего дела</h2>
@@ -155,7 +182,7 @@
         </div>
       </div>
 
-      <div class="fifth-container" id="Modules">
+      <div class="fifth-container" id="modules">
         <div class="fifth-container-body">
           <div class="fifth-title ">
             Курс разделен <br> на 7 модулей
@@ -288,8 +315,8 @@
         </div>
       </div>
 
-      <div class="sixth-container" id="howItGoes">
-        <div class="sixth-container-body">
+      <div class="sixth-container">
+        <div class="sixth-container-body" id="howItGoes">
           <div class="sixth-content">
             <div class="sixth-title block-title">
               курс проходит в закрытом <br>
@@ -483,9 +510,7 @@
       </div>
     </div> -->
   </div>
-  <div class="burger-window" *ngIf="isInBurger">
 
-  </div>
 </div>
 <div *ngIf="!IsMobile" class="container">
   <div class="header">

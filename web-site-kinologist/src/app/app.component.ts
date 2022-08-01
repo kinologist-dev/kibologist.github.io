@@ -1,4 +1,6 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, HostListener } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +10,10 @@ import { Component, HostListener } from '@angular/core';
 export class AppComponent {
   title = 'web-site-kinologist';
   IsMobile: boolean = false;
-  isInBurger: boolean = true;
-  constructor() {
+  isInBurger: boolean = false;
+  constructor(
+    private router: Router,
+    private scroller: ViewportScroller) {
     this.getScreenSize();
   }
 
@@ -46,7 +50,15 @@ export class AppComponent {
     }
   }
 
-  changeBurger(): void{
+  changeBurger(): void {
     this.isInBurger = !this.isInBurger;
+  }
+
+  scroll(id: string) {
+    this.changeBurger();
+
+    console.log(document.getElementById(id))
+
+    this.scroller.scrollToAnchor(id);
   }
 }

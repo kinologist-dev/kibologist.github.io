@@ -606,6 +606,8 @@
     .container {
         font-family: 'Open Sans', sans-serif;
         font-weight: bold;
+        width: 100%;
+        margin: auto;
         color: #303030;
     }
 
@@ -655,14 +657,14 @@
 
         border: none;
         background-color: rgba(0, 0, 0, 0);
-        padding: 0;
+        padding: 1%;
 
         margin-right: 6%;
     }
 
     .burger-row {
         width: 6.5vw;
-        height: 0.4vh;
+        height: 1vw;
         background-color: #FFFFFF;
         border-radius: 1vw;
         border: none;
@@ -1149,25 +1151,76 @@
         width: 100%;
     }
 
-    .footer-part {
+    .burger-window{
+        background-color: #303030;
+        color: #FFFFFF;
+        width: 84%;
+        height: 94.5vh;
 
-        display: inline-block;
-        color: #66A340;
-        font-size: 1vw;
-        margin-bottom: 0;
+        padding-top: 12%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .close-btn{
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        width: 10%;
+
+        float: right;
+    }
+
+    .close-img{
+        width: 87%;
+    }
+
+    .line-burger-window{
+        margin-left: -10%;
+        margin-right: -10%;
+        margin-top: 5.1vh;
+        margin-bottom: 4vh;
+
+        width: 119%;
+        height: 0.1vh;
+
+        background-color: #FFFFFF;
+    }
+
+    .router-btn-burger-window{
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+
+        display: block;
+
+        margin-bottom: 5vh;
+
+        color: #FFFFFF;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 4.5vw;
+    }
+
+    footer{
+        margin-top: 35vh;
 
         font-family: 'Open Sans', sans-serif;
         font-weight: 700;
+        font-size: 4.5vw;
+    }
 
-        vertical-align: middle;
-
-        padding-top: 2vh;
-
+    .footer-top{
+        color: #66A340;
     }
 
     .footer-part>a {
         color: #66A340;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
 
+    }
+
+    .footer-part{
+        margin-top: 2vh;
     }
 
     .footer-part>span {
@@ -1176,33 +1229,14 @@
     }
 
     .footer-part>img {
-        width: 1.1vw;
+        width: 7%;
         margin-right: 0.2vw;
 
     }
 
     .footer-part>img, .footer-part>span {
         display: inline-block;
-        align-self: center;
+        vertical-align: middle;
     }
 
-    .footer {
-        background-color: #303030;
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-
-        padding-top: 1vh;
-        padding-bottom: 1vh;
-    }
-
-    .footer-logo>img {
-        width: 6vw;
-    }
-
-    .burger-window{
-        background-color: #303030;
-        width: 100%;
-        height: 100vh;
-    }
 }

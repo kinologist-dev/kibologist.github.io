@@ -4,10 +4,12 @@ import { NgImageSliderModule } from 'ng-image-slider';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PayComponent } from './components/pay/pay.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PayComponent
   ],
   imports: [
     NgImageSliderModule,
