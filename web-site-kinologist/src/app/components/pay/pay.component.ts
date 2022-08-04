@@ -16,6 +16,7 @@ export class PayComponent implements OnInit {
 
   ngOnInit(): void {
     render(
+      
       {
         id: "#paypalButtons",
         currency: "USD",
