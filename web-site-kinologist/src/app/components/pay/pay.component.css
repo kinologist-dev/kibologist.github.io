@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../../../assets/Fonts/OpenSans.ttf') format('truetype');
+    /* IE 9 Compatibility Mode */
+}
+
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    src: url('../../../assets/Fonts/bebas_neue_bold.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../../../assets/Fonts/bebas_neue_bold.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('../../../assets/Fonts/bebas_neue_bold.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../../../assets/Fonts/bebas_neue_bold.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('../../../assets/Fonts/bebas_neue_bold.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../../../assets/Fonts/bebas_neue_bold.svg#bebas_neue_bold') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: black;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3SZ2oysoEQEeKwjgmXLRnTc.ttf) format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700;900&family=Open+Sans&display=swap');
+
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        background-color: #303030;
+        color: #FFFFFF;
+    
+        text-align: center;
+    
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    
+   
+    
+    .logo {
+        width: 13%;
+    }
+    
+    .header-title, .logo {
+        display: inline-block;
+    
+        color: #ffffff;
+    
+        font-family: 'Bebas Neue Bold';
+        font-weight: 700;
+        font-size: 7.5vw;
+    
+        vertical-align: middle;
+    }
+    
+    .title {
+        text-align: center;
+    
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 6vw;
+    
+        padding-bottom: 2vh;
+    }
+    
+    .container {
+        padding-top: 23vh;
+    
+        text-align: center;
+    }
+    
+    #paypalButtons{
+        width: 95%;
+        margin: auto;
+        align-content: center;
+    }
+    
+    .text{
+        text-align: center;
+    
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+    
+        background-color: #303030;
+        width: 95%;
+        margin: auto;
+        margin-bottom: 2vh;
+    
+        color: #ffffff;
+    
+        border-radius: 1vw;
+    }
+    
+}
+@media screen and (min-width: 769px) {
+
+    .header {
+        background-color: #303030;
+        color: #FFFFFF;
+    
+        text-align: center;
+    
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    
+   
+    
+    .logo {
+        width: 5%;
+        padding-top: 0.25vh;
+    }
+    
+    .header-title, .logo {
+        display: inline-block;
+    
+        color: #ffffff;
+    
+        font-family: 'Bebas Neue Bold';
+        font-weight: 700;
+        font-size: 4vw;
+    
+        vertical-align: middle;
+    }
+    
+    .title {
+        text-align: center;
+    
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 4vw;
+    
+        padding-bottom: 2vh;
+    }
+    
+    .container {
+        padding-top: 23vh;
+    
+        text-align: center;
+    }
+    
+    #paypalButtons{
+        width: 45%;
+        margin: auto;
+        align-content: center;
+    }
+    
+    .text{
+        text-align: center;
+    
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    
+        background-color: #303030;
+        width: 45%;
+        margin: auto;
+        margin-right: 0.5vw;
+    
+        color: #ffffff;
+    
+        border-radius: 1vw;
+
+        font-size: 1.5vw;
+    }
+
+    .text, #paypalButtons{
+        display: inline-block;
+        vertical-align: text-top;
+    }
+    
+}
+.header>button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.logo>img {
+    width: 100%;
+}
+.price{
+    color: #66A340;
+}

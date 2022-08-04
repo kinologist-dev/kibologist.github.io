@@ -1,18 +1,27 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgImageSliderModule } from 'ng-image-slider';
+import { Routes, RouterModule } from '@angular/router';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CourseComponent } from './components/course/course.component';
+import { PayComponent } from './components/pay/pay.component';
+
+const routes: Routes = [
+  {path: 'pay', component: PayComponent},
+  {path: '', component: CourseComponent}
+];
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CourseComponent,
+    PayComponent
   ],
   imports: [
-    NgImageSliderModule,
     BrowserModule,
-    AppRoutingModule
+    RouterModule.forRoot(routes),
+    CommonModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
