@@ -2,7 +2,6 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
-import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { CourseComponent } from './components/course/course.component';
@@ -10,7 +9,7 @@ import { PayComponent } from './components/pay/pay.component';
 
 const routes: Routes = [
   {path: 'pay', component: PayComponent},
-  {path: '**', component: CourseComponent}
+  {path: '', component: CourseComponent}
 ];
 
 @NgModule({
@@ -20,9 +19,9 @@ const routes: Routes = [
     PayComponent
   ],
   imports: [
-    AppRoutingModule,
+    BrowserModule,
     RouterModule.forRoot(routes),
-    CommonModule
+    CommonModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
