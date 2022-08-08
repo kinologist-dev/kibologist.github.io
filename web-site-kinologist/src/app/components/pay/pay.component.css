@@ -35,154 +35,199 @@
     .header {
         background-color: #303030;
         color: #FFFFFF;
-    
+
         text-align: center;
-    
+
         padding-top: 1vh;
         padding-bottom: 1vh;
     }
-    
-   
-    
+
+
+
     .logo {
         width: 13%;
     }
-    
+
     .header-title, .logo {
         display: inline-block;
-    
+
         color: #ffffff;
-    
+
         font-family: 'Bebas Neue Bold';
         font-weight: 700;
         font-size: 7.5vw;
-    
+
         vertical-align: middle;
     }
-    
+
     .title {
         text-align: center;
-    
+
         font-family: 'Open Sans', sans-serif;
         font-weight: 700;
         font-size: 6vw;
-    
+
         padding-bottom: 2vh;
     }
-    
+
     .container {
         padding-top: 23vh;
-    
+
         text-align: center;
     }
-    
-    #paypalButtons{
+
+    #payButtons {
         width: 95%;
         margin: auto;
         align-content: center;
+        margin-top: 5vh;
     }
-    
-    .text{
+
+    .text {
         text-align: center;
-    
+
         padding-top: 0.5vh;
         padding-bottom: 0.5vh;
-    
+
         background-color: #303030;
         width: 95%;
         margin: auto;
         margin-bottom: 2vh;
-    
+
         color: #ffffff;
-    
+
         border-radius: 1vw;
     }
-    
+
+
+    .pay-btn {
+        text-align: center;
+        background-color: #66A340;
+        border: 0.2vw solid #303030;
+        color: #ffffff;
+        text-decoration: none;
+
+        font-family: 'Bebas Neue Bold';
+        font-weight: 700;
+        font-size: 6vw;
+
+        padding-left: 4vw;
+        padding-right: 4vw;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+
+
+        border-radius: 20vw;
+    }
+
 }
+
 @media screen and (min-width: 769px) {
 
     .header {
         background-color: #303030;
         color: #FFFFFF;
-    
+
         text-align: center;
-    
+
         padding-top: 1vh;
         padding-bottom: 1vh;
     }
-    
-   
-    
+
+
+
     .logo {
         width: 5%;
         padding-top: 0.25vh;
     }
-    
+
     .header-title, .logo {
         display: inline-block;
-    
+
         color: #ffffff;
-    
+
         font-family: 'Bebas Neue Bold';
         font-weight: 700;
         font-size: 4vw;
-    
+
         vertical-align: middle;
     }
-    
+
     .title {
         text-align: center;
-    
+
         font-family: 'Open Sans', sans-serif;
         font-weight: 700;
         font-size: 4vw;
-    
+
         padding-bottom: 2vh;
     }
-    
+
     .container {
         padding-top: 23vh;
-    
+
         text-align: center;
     }
-    
-    #paypalButtons{
+
+    #payButtons {
         width: 45%;
         margin: auto;
         align-content: center;
     }
-    
-    .text{
+
+    .text {
         text-align: center;
-    
+
         padding-top: 2vh;
         padding-bottom: 2vh;
-    
+
         background-color: #303030;
         width: 45%;
         margin: auto;
         margin-right: 0.5vw;
-    
+
         color: #ffffff;
-    
+
         border-radius: 1vw;
 
         font-size: 1.5vw;
     }
 
-    .text, #paypalButtons{
+    .text, #payButtons {
         display: inline-block;
-        vertical-align: text-top;
+        vertical-align: middle;
     }
-    
+
+    .pay-btn {
+        text-align: center;
+        background-color: #66A340;
+        border: 0.2vw solid #303030;
+        color: #ffffff;
+        text-decoration: none;
+
+        font-family: 'Bebas Neue Bold';
+        font-weight: 700;
+        font-size: 1.5vw;
+
+        padding-left: 4vw;
+        padding-right: 4vw;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+
+
+        border-radius: 20vw;
+    }
 }
+
 .header>button {
     background-color: rgba(0, 0, 0, 0);
     border: none;
 }
+
 .logo>img {
     width: 100%;
 }
-.price{
+
+.price {
     color: #66A340;
 }
