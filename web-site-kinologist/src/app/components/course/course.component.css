@@ -607,8 +607,9 @@
     .container {
         font-family: 'Open Sans', sans-serif;
         font-weight: bold;
-        width: 100%;
-        margin: auto;
+        width: 100vw;
+        margin-right: -100vw;
+        padding: 0;
         color: #303030;
     }
 
@@ -1155,8 +1156,7 @@
     .burger-window{
         background-color: #303030;
         color: #FFFFFF;
-        width: 84%;
-        height: 94.5vh;
+        height: 100vh;
 
         padding-top: 12%;
         padding-left: 8%;
